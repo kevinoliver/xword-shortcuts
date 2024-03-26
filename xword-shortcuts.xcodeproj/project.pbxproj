@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164EDEF22BB38C760056D2CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EDEF12BB38C760056D2CE /* AppDelegate.swift */; };
+		164EDEF62BB38C760056D2CE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 164EDEF42BB38C760056D2CE /* Main.html */; };
+		164EDEF82BB38C760056D2CE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EDEF72BB38C760056D2CE /* Icon.png */; };
+		164EDEFA2BB38C760056D2CE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 164EDEF92BB38C760056D2CE /* Style.css */; };
+		164EDEFC2BB38C760056D2CE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 164EDEFB2BB38C760056D2CE /* Script.js */; };
+		164EDEFE2BB38C760056D2CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EDEFD2BB38C760056D2CE /* ViewController.swift */; };
+		164EDF012BB38C760056D2CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164EDEFF2BB38C760056D2CE /* Main.storyboard */; };
+		164EDF032BB38C7B0056D2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF022BB38C7B0056D2CE /* Assets.xcassets */; };
+		164EDF0B2BB38C7C0056D2CE /* xword-shortcuts Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 164EDF0A2BB38C7C0056D2CE /* xword-shortcuts Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		164EDF102BB38C7C0056D2CE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EDF0F2BB38C7C0056D2CE /* SafariWebExtensionHandler.swift */; };
+		164EDF132BB38C7C0056D2CE /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF122BB38C7C0056D2CE /* _locales */; };
+		164EDF152BB38C7C0056D2CE /* images in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF142BB38C7C0056D2CE /* images */; };
+		164EDF172BB38C7C0056D2CE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF162BB38C7C0056D2CE /* manifest.json */; };
+		164EDF192BB38C7C0056D2CE /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF182BB38C7C0056D2CE /* background.js */; };
+		164EDF1B2BB38C7C0056D2CE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF1A2BB38C7C0056D2CE /* content.js */; };
+		164EDF1D2BB38C7C0056D2CE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF1C2BB38C7C0056D2CE /* popup.html */; };
+		164EDF1F2BB38C7C0056D2CE /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF1E2BB38C7C0056D2CE /* popup.css */; };
+		164EDF212BB38C7C0056D2CE /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF202BB38C7C0056D2CE /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		164EDF0C2BB38C7C0056D2CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 164EDEE62BB38C760056D2CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164EDF092BB38C7C0056D2CE;
+			remoteInfo = "xword-shortcuts Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		164EDF292BB38C7C0056D2CE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				164EDF0B2BB38C7C0056D2CE /* xword-shortcuts Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		164EDEEE2BB38C760056D2CE /* xword-shortcuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xword-shortcuts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		164EDEF12BB38C760056D2CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		164EDEF52BB38C760056D2CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		164EDEF72BB38C760056D2CE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		164EDEF92BB38C760056D2CE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		164EDEFB2BB38C760056D2CE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		164EDEFD2BB38C760056D2CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		164EDF002BB38C760056D2CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		164EDF022BB38C7B0056D2CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		164EDF042BB38C7B0056D2CE /* xword_shortcuts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xword_shortcuts.entitlements; sourceTree = "<group>"; };
+		164EDF052BB38C7B0056D2CE /* xword-shortcuts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "xword-shortcuts.entitlements"; sourceTree = "<group>"; };
+		164EDF0A2BB38C7C0056D2CE /* xword-shortcuts Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xword-shortcuts Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		164EDF0F2BB38C7C0056D2CE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		164EDF122BB38C7C0056D2CE /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		164EDF142BB38C7C0056D2CE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		164EDF162BB38C7C0056D2CE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		164EDF182BB38C7C0056D2CE /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		164EDF1A2BB38C7C0056D2CE /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		164EDF1C2BB38C7C0056D2CE /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		164EDF1E2BB38C7C0056D2CE /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		164EDF202BB38C7C0056D2CE /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		164EDF222BB38C7C0056D2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164EDF232BB38C7C0056D2CE /* xword_shortcuts_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xword_shortcuts_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		164EDEEB2BB38C760056D2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164EDF072BB38C7C0056D2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		164EDEE52BB38C760056D2CE = {
+			isa = PBXGroup;
+			children = (
+				164EDEF02BB38C760056D2CE /* xword-shortcuts */,
+				164EDF0E2BB38C7C0056D2CE /* xword-shortcuts Extension */,
+				164EDEEF2BB38C760056D2CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		164EDEEF2BB38C760056D2CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				164EDEEE2BB38C760056D2CE /* xword-shortcuts.app */,
+				164EDF0A2BB38C7C0056D2CE /* xword-shortcuts Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		164EDEF02BB38C760056D2CE /* xword-shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				164EDEF12BB38C760056D2CE /* AppDelegate.swift */,
+				164EDEFD2BB38C760056D2CE /* ViewController.swift */,
+				164EDEFF2BB38C760056D2CE /* Main.storyboard */,
+				164EDF022BB38C7B0056D2CE /* Assets.xcassets */,
+				164EDF042BB38C7B0056D2CE /* xword_shortcuts.entitlements */,
+				164EDF052BB38C7B0056D2CE /* xword-shortcuts.entitlements */,
+				164EDEF32BB38C760056D2CE /* Resources */,
+			);
+			path = "xword-shortcuts";
+			sourceTree = "<group>";
+		};
+		164EDEF32BB38C760056D2CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				164EDEF42BB38C760056D2CE /* Main.html */,
+				164EDEF72BB38C760056D2CE /* Icon.png */,
+				164EDEF92BB38C760056D2CE /* Style.css */,
+				164EDEFB2BB38C760056D2CE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		164EDF0E2BB38C7C0056D2CE /* xword-shortcuts Extension */ = {
+			isa = PBXGroup;
+			children = (
+				164EDF0F2BB38C7C0056D2CE /* SafariWebExtensionHandler.swift */,
+				164EDF222BB38C7C0056D2CE /* Info.plist */,
+				164EDF232BB38C7C0056D2CE /* xword_shortcuts_Extension.entitlements */,
+				164EDF112BB38C7C0056D2CE /* Resources */,
+			);
+			path = "xword-shortcuts Extension";
+			sourceTree = "<group>";
+		};
+		164EDF112BB38C7C0056D2CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				164EDF122BB38C7C0056D2CE /* _locales */,
+				164EDF142BB38C7C0056D2CE /* images */,
+				164EDF162BB38C7C0056D2CE /* manifest.json */,
+				164EDF182BB38C7C0056D2CE /* background.js */,
+				164EDF1A2BB38C7C0056D2CE /* content.js */,
+				164EDF1C2BB38C7C0056D2CE /* popup.html */,
+				164EDF1E2BB38C7C0056D2CE /* popup.css */,
+				164EDF202BB38C7C0056D2CE /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		164EDEED2BB38C760056D2CE /* xword-shortcuts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164EDF2A2BB38C7C0056D2CE /* Build configuration list for PBXNativeTarget "xword-shortcuts" */;
+			buildPhases = (
+				164EDEEA2BB38C760056D2CE /* Sources */,
+				164EDEEB2BB38C760056D2CE /* Frameworks */,
+				164EDEEC2BB38C760056D2CE /* Resources */,
+				164EDF292BB38C7C0056D2CE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				164EDF0D2BB38C7C0056D2CE /* PBXTargetDependency */,
+			);
+			name = "xword-shortcuts";
+			productName = "xword-shortcuts";
+			productReference = 164EDEEE2BB38C760056D2CE /* xword-shortcuts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		164EDF092BB38C7C0056D2CE /* xword-shortcuts Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164EDF262BB38C7C0056D2CE /* Build configuration list for PBXNativeTarget "xword-shortcuts Extension" */;
+			buildPhases = (
+				164EDF062BB38C7C0056D2CE /* Sources */,
+				164EDF072BB38C7C0056D2CE /* Frameworks */,
+				164EDF082BB38C7C0056D2CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xword-shortcuts Extension";
+			productName = "xword-shortcuts Extension";
+			productReference = 164EDF0A2BB38C7C0056D2CE /* xword-shortcuts Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		164EDEE62BB38C760056D2CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					164EDEED2BB38C760056D2CE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					164EDF092BB38C7C0056D2CE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 164EDEE92BB38C760056D2CE /* Build configuration list for PBXProject "xword-shortcuts" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 164EDEE52BB38C760056D2CE;
+			productRefGroup = 164EDEEF2BB38C760056D2CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				164EDEED2BB38C760056D2CE /* xword-shortcuts */,
+				164EDF092BB38C7C0056D2CE /* xword-shortcuts Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		164EDEEC2BB38C760056D2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164EDEF82BB38C760056D2CE /* Icon.png in Resources */,
+				164EDF012BB38C760056D2CE /* Main.storyboard in Resources */,
+				164EDEFC2BB38C760056D2CE /* Script.js in Resources */,
+				164EDEF62BB38C760056D2CE /* Main.html in Resources */,
+				164EDF032BB38C7B0056D2CE /* Assets.xcassets in Resources */,
+				164EDEFA2BB38C760056D2CE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164EDF082BB38C7C0056D2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164EDF192BB38C7C0056D2CE /* background.js in Resources */,
+				164EDF1F2BB38C7C0056D2CE /* popup.css in Resources */,
+				164EDF1D2BB38C7C0056D2CE /* popup.html in Resources */,
+				164EDF152BB38C7C0056D2CE /* images in Resources */,
+				164EDF172BB38C7C0056D2CE /* manifest.json in Resources */,
+				164EDF132BB38C7C0056D2CE /* _locales in Resources */,
+				164EDF1B2BB38C7C0056D2CE /* content.js in Resources */,
+				164EDF212BB38C7C0056D2CE /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		164EDEEA2BB38C760056D2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164EDEFE2BB38C760056D2CE /* ViewController.swift in Sources */,
+				164EDEF22BB38C760056D2CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164EDF062BB38C7C0056D2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164EDF102BB38C7C0056D2CE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		164EDF0D2BB38C7C0056D2CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164EDF092BB38C7C0056D2CE /* xword-shortcuts Extension */;
+			targetProxy = 164EDF0C2BB38C7C0056D2CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		164EDEF42BB38C760056D2CE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164EDEF52BB38C760056D2CE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		164EDEFF2BB38C760056D2CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164EDF002BB38C760056D2CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		164EDF242BB38C7C0056D2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		164EDF252BB38C7C0056D2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		164EDF272BB38C7C0056D2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "xword-shortcuts Extension/xword_shortcuts_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xword-shortcuts Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xword-shortcuts Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lenoxsoftware.xword-shortcuts.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		164EDF282BB38C7C0056D2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "xword-shortcuts Extension/xword_shortcuts_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xword-shortcuts Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xword-shortcuts Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lenoxsoftware.xword-shortcuts.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		164EDF2B2BB38C7C0056D2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "xword-shortcuts/xword-shortcuts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "xword-shortcuts";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lenoxsoftware.xword-shortcuts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		164EDF2C2BB38C7C0056D2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "xword-shortcuts/xword-shortcuts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "xword-shortcuts";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lenoxsoftware.xword-shortcuts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		164EDEE92BB38C760056D2CE /* Build configuration list for PBXProject "xword-shortcuts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164EDF242BB38C7C0056D2CE /* Debug */,
+				164EDF252BB38C7C0056D2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164EDF262BB38C7C0056D2CE /* Build configuration list for PBXNativeTarget "xword-shortcuts Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164EDF272BB38C7C0056D2CE /* Debug */,
+				164EDF282BB38C7C0056D2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164EDF2A2BB38C7C0056D2CE /* Build configuration list for PBXNativeTarget "xword-shortcuts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164EDF2B2BB38C7C0056D2CE /* Debug */,
+				164EDF2C2BB38C7C0056D2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 164EDEE62BB38C760056D2CE /* Project object */;
+}
