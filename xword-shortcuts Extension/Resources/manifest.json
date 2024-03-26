@@ -21,7 +21,7 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "*://nytimes.com/crosswords/*" ]
     }],
 
     "browser_action": {
