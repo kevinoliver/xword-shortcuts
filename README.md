@@ -18,3 +18,7 @@ While this is a Safari browser extension I'm pretty sure that it'd work with Chr
 
 To pause or unpause, press `Control`.
 To toggle the pencil tool, press `Alt` or `Option`.
+
+## Attribution
+
+The [crossword icon](https://icons8.com/icon/4BA2477uXCGm/crossword) is by [Icons8](https://icons8.com).
