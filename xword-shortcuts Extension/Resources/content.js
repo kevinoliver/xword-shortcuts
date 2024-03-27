@@ -1,7 +1,39 @@
-browser.runtime.sendMessage({ greeting: "hello" }).then((response) => {
-    console.log("Received response: ", response);
-});
+function getPauseOrContinueButton() {
+    let button = document.querySelector('[aria-label="Timer Pause Button"]');
+    if (!button) {
+        button = document.querySelector('[aria-label="Continue"]');
+    }
+    return button;
+}
 
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
+function getPencilButton() {
+    let pencil = document.querySelector('[class="xwd__toolbar_icon--pencil-active"]');
+    if (!pencil) {
+        pencil = document.querySelector('[class="xwd__toolbar_icon--pencil"]');
+    }
+    if (pencil) {
+        return pencil.parentNode;
+    } else {
+        return null;
+    }
+}
+
+window.addEventListener("keyup", function(event) {
+    if (event.key === "Control") {
+        // pause/unpause
+        let button = getPauseOrContinueButton();
+        if (button) {
+            button.click();
+        } else {
+            console.log("No pause or continue button found")
+        }
+    } else if (event.key === "Alt") {
+        // toggle pencil mode
+        let button = getPencilButton();
+        if (button) {
+            button.click();
+        } else {
+            console.log("No pencil button found");
+        }
+    }
 });
