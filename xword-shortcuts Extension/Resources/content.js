@@ -11,11 +11,7 @@ function getPencilButton() {
     if (!pencil) {
         pencil = document.querySelector('[class="xwd__toolbar_icon--pencil"]');
     }
-    if (pencil) {
-        return pencil.parentNode;
-    } else {
-        return null;
-    }
+    return pencil?.parentNode;
 }
 
 window.addEventListener("keyup", function(event) {
