@@ -15,7 +15,7 @@ I haven't dealt with packaging this up into an easy download (read as: paid for 
 To install, open the extension in Xcode and use `Product > Run` to [launch it](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744471).
 Then turn on Developer mode in Safari and then [allow running of unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467).
 
-While this is a Safari browser extension I'm pretty sure that it'd work with Chrome, Firefox, or any other browser supporting the [WebExtensions API](https://extensionworkshop.com/documentation/develop/about-the-webextensions-api/). See the files in [`xword-shortcuts/Resources/`](xword-shortcuts/Resources/).
+While this is a Safari browser extension I'm pretty sure that it'd work with Chrome, Firefox, or any other browser supporting the [WebExtensions API](https://extensionworkshop.com/documentation/develop/about-the-webextensions-api/). See the files in [`xword-shortcuts Extension/Resources/`](xword-shortcuts%20Extension/Resources/).
 
 ## Usage
 
