@@ -21,9 +21,6 @@
 		164EDF152BB38C7C0056D2CE /* images in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF142BB38C7C0056D2CE /* images */; };
 		164EDF172BB38C7C0056D2CE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF162BB38C7C0056D2CE /* manifest.json */; };
 		164EDF1B2BB38C7C0056D2CE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF1A2BB38C7C0056D2CE /* content.js */; };
-		164EDF1D2BB38C7C0056D2CE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF1C2BB38C7C0056D2CE /* popup.html */; };
-		164EDF1F2BB38C7C0056D2CE /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF1E2BB38C7C0056D2CE /* popup.css */; };
-		164EDF212BB38C7C0056D2CE /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 164EDF202BB38C7C0056D2CE /* popup.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +65,6 @@
 		164EDF142BB38C7C0056D2CE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		164EDF162BB38C7C0056D2CE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		164EDF1A2BB38C7C0056D2CE /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		164EDF1C2BB38C7C0056D2CE /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		164EDF1E2BB38C7C0056D2CE /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		164EDF202BB38C7C0056D2CE /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		164EDF222BB38C7C0056D2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		164EDF232BB38C7C0056D2CE /* xword_shortcuts_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xword_shortcuts_Extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,9 +148,6 @@
 				164EDF142BB38C7C0056D2CE /* images */,
 				164EDF162BB38C7C0056D2CE /* manifest.json */,
 				164EDF1A2BB38C7C0056D2CE /* content.js */,
-				164EDF1C2BB38C7C0056D2CE /* popup.html */,
-				164EDF1E2BB38C7C0056D2CE /* popup.css */,
-				164EDF202BB38C7C0056D2CE /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -255,13 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				164EDF1F2BB38C7C0056D2CE /* popup.css in Resources */,
-				164EDF1D2BB38C7C0056D2CE /* popup.html in Resources */,
 				164EDF152BB38C7C0056D2CE /* images in Resources */,
 				164EDF172BB38C7C0056D2CE /* manifest.json in Resources */,
 				164EDF132BB38C7C0056D2CE /* _locales in Resources */,
 				164EDF1B2BB38C7C0056D2CE /* content.js in Resources */,
-				164EDF212BB38C7C0056D2CE /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
