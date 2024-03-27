@@ -1,13 +1,13 @@
 # xword-shortcuts
 
-A Safari browser extension that adds keyboard shortcuts to the NYTimes Crossword puzzle
+A Safari browser extension that adds keyboard shortcuts to the [NYTimes Crossword](https://www.nytimes.com/crosswords) puzzles
 for the pencil and pausing.
 
 ## Why
 
-I like the NYT crossword and normally do it on my phone. So when I use the computer for it,
+I like the New York Times Crossword and normally do it on my phone. So when I used the computer for it,
 I kept wishing there was a faster way to toggle the pencil tool and to pause. Maybe
-I'll solve more of them on my computer now with this.
+I'll solve more of them on my computer now.
 
 ## Installation
 
