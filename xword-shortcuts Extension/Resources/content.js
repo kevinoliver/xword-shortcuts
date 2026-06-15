@@ -1,35 +1,45 @@
+function findButtonByPattern(patterns) {
+    const normalizedPatterns = patterns.map(pattern => pattern.toLowerCase());
+    const buttons = Array.from(document.querySelectorAll('button, [role="button"]'));
+    return buttons.find(button => {
+        const label = (
+            button.getAttribute('aria-label') ||
+            button.getAttribute('title') ||
+            button.textContent ||
+            ''
+        ).toLowerCase();
+        return normalizedPatterns.some(pattern => label.includes(pattern));
+    });
+}
+
 function getPauseOrContinueButton() {
-    let button = document.querySelector('[aria-label="Timer Pause Button"]');
-    if (!button) {
-        button = document.querySelector('[aria-label="Continue"]');
-    }
-    return button;
+    const directSelector =
+        'button[aria-label="Timer Pause Button"], button[aria-label="Pause"], button[aria-label="Resume"], button[aria-label="Continue"], button[aria-label*="Pause"], button[aria-label*="Resume"], button[aria-label*="Continue"]';
+    return document.querySelector(directSelector) || findButtonByPattern(['pause', 'resume', 'continue']);
 }
 
 function getPencilButton() {
-    let pencil = document.querySelector('[class="xwd__toolbar_icon--pencil-active"]');
-    if (!pencil) {
-        pencil = document.querySelector('[class="xwd__toolbar_icon--pencil"]');
-    }
-    return pencil?.parentNode;
+    const directSelector =
+        'button[aria-label="Pencil"], button[title="Pencil"], button[aria-label*="Pencil"], button[title*="Pencil"], [role="button"][aria-label*="Pencil"], [role="button"][title*="Pencil"], button[class*="pencil"], [class*="pencil"]';
+    return document.querySelector(directSelector) || findButtonByPattern(['pencil']);
 }
 
-window.addEventListener("keyup", function(event) {
-    if (event.key === "Control") {
+window.addEventListener('keyup', function(event) {
+    if (event.key === 'Control') {
         // pause/unpause
-        let button = getPauseOrContinueButton();
+        const button = getPauseOrContinueButton();
         if (button) {
             button.click();
         } else {
-            console.log("No pause or continue button found")
+            console.log('No pause or continue button found');
         }
-    } else if (event.key === "Alt") {
+    } else if (event.key === 'Alt') {
         // toggle pencil mode
-        let button = getPencilButton();
+        const button = getPencilButton();
         if (button) {
             button.click();
         } else {
-            console.log("No pencil button found");
+            console.log('No pencil button found');
         }
     }
 });
