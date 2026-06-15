@@ -13,7 +13,7 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://nytimes.com/crosswords/*" ]
+        "matches": [ "*://*.nytimes.com/crosswords/*" ]
     }],
 
     "permissions": [ ]
