@@ -429,7 +429,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "xword-shortcuts Extension/xword_shortcuts_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = PM34H2JW88;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -461,7 +461,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "xword-shortcuts Extension/xword_shortcuts_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = PM34H2JW88;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -496,7 +496,7 @@
 				CODE_SIGN_ENTITLEMENTS = "xword-shortcuts/xword-shortcuts.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = PM34H2JW88;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -533,7 +533,7 @@
 				CODE_SIGN_ENTITLEMENTS = "xword-shortcuts/xword-shortcuts.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = PM34H2JW88;
 				ENABLE_HARDENED_RUNTIME = YES;
