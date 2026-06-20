@@ -4,6 +4,7 @@
 xcuserdata/
 DerivedData/
 build/
+dist/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
