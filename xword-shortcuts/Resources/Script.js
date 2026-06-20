@@ -13,3 +13,6 @@ function openPreferences() {
 }
 
 document.querySelector("button.open-preferences").addEventListener("click", openPreferences);
+document.querySelector("img.app-icon").addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+});
